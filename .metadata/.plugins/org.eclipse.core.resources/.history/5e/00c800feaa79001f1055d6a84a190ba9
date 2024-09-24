@@ -1,0 +1,13 @@
+import java.util.TreeSet;
+
+public class TreeSet_05 {
+
+	public static void main(String[] args) {
+		
+		TreeSet ts = TreeSet();
+		
+		
+
+	}
+
+}

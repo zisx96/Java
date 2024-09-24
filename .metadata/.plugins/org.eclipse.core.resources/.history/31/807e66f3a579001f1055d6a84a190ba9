@@ -1,0 +1,12 @@
+import java.util.LinkedList;
+
+public class linkedList_02 {
+
+	public static void main(String[] args) {
+		
+		LinkedList l1 = new LinkedList();
+		
+		
+	}
+
+}

@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+class Alpha{
+	
+	public void calc() {
+		
+		System.out.println("Alpha Connection Established");
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("kindly enter the numerator for division");
+		
+		int n = scan.nextInt();
+		
+		System.out.println("kindly enter the denominator for division");
+		
+		int d = scan.nextInt();
+		
+		int res = n/d;
+		
+		System.out.println("result is: " + res);
+				
+		System.out.println("error occured");
+	
+		
+		System.out.println("Alpha Connection Terminated");
+	}
+}
+
+class Beta{
+	
+	public void disp() {
+		
+		Alpha a = new Alpha();
+		a.calc();
+	}
+	
+}
+
+public class ExceptH_03 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("main connection established");
+		
+		Beta b = new Beta();
+		b.disp();
+		
+		System.out.println("main connection terminated");
+	}
+
+}

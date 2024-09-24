@@ -1,0 +1,12 @@
+import java.util.ArrayDeque;
+
+public class ArrayDeque_03 {
+
+	public static void main(String[] args) {
+		
+		ArrayDeque ad = new ArrayDeque();
+		
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+import java.util.LinkedList;
+
+public class linkedList_02 {
+
+	public static void main(String[] args) {
+		
+		LinkedList l1 = new LinkedList();
+		
+		l1.addFirst(10);
+		l1.add("java");
+		l1.add(true);
+		l1.add(20);
+		
+		System.out.println(l1);
+	}
+
+}

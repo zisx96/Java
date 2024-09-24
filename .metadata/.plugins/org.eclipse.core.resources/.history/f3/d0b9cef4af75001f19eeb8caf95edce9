@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+class Alpha2{
+	
+public void calc() throws ArithmeticException  {
+		
+		System.out.println("Alpha Connection Established");
+		
+		try {
+			
+			Scanner scan = new Scanner(System.in);
+			
+			System.out.println("kindly enter the numerator for division");
+			
+			int n = scan.nextInt();
+			
+			System.out.println("kindly enter the denominator for division");
+			
+			int d = scan.nextInt();
+			
+			int res = n/d;
+			
+			System.out.println("result is: " + res);
+			
+			}
+			
+			catch(ArithmeticException e) {
+			
+				System.out.println("pealse enter non zero");
+			}
+			
+			catch(Exception e){
+				
+				System.out.println("error occured");
+			}
+	
+		
+		System.out.println("Alpha Connection Terminated");
+	}
+}
+
+public class ExceptH_05 {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

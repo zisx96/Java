@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+class Applicant{
+	
+	int age ;
+	
+	public void input() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("kindly enter your age");
+		age = sc.nextInt();
+	}
+	
+	public void verify() {
+		
+		
+	}
+	
+}
+
+public class ExceptH_09 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
