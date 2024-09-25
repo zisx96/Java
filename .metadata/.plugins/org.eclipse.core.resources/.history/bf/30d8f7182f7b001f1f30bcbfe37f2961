@@ -1,0 +1,16 @@
+import java.util.Vector;
+
+public class Vector_10 {
+
+	public static void main(String[] args) {
+			
+		Vector v = new Vector();
+		v.addElement(100);
+		v.add(200);
+		v.add(300);
+		v.addElement(400);
+		
+		System.out.println(v);
+	}
+
+}

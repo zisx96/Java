@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ListWays {
+
+	public static void main(String[] args) {
+		
+		List<Integer> l = new ArrayList<>();
+		
+		//	List<Integer> ll = new LinkedList<>(); // will not have the array deque
+		
+		List<Integer> list = Arrays.asList(10,20,30,40);
+	}
+	
+	public static Iterable<Integer> getIntegers(){
+		
+		// returns new ArrayList<Integer>();
+		return new TreeSet<Integer>();
+	}
+
+}

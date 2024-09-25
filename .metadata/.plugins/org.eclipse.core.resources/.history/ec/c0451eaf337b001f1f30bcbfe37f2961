@@ -1,0 +1,15 @@
+
+class Alpha<A> {
+	
+	
+}
+
+public class generic_02 {
+
+	public static void main(String[] args) {
+		
+		Alpha<Integer> a = new Alpha<>();
+
+	}
+
+}

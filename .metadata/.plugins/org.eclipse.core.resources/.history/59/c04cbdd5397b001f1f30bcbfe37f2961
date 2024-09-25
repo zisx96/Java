@@ -1,0 +1,31 @@
+
+class Human{
+	
+	int age;
+	
+	public void disp() {
+		
+		System.out.println("this is human class");
+	}
+}
+
+class Student extends Human{
+	
+	
+}
+
+class Employee{
+	
+	
+}
+
+public class generic_03 {
+
+	public static void main(String[] args) {
+		
+		Object obj = new Object();
+		String s = new String("java");
+		
+	}
+
+}
