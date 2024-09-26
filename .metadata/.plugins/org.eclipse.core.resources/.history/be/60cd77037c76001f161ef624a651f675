@@ -1,0 +1,24 @@
+
+class Gamma {
+	
+	public inrtt disp() {
+		
+		try {
+			
+			System.out.println("disp method do gamma");
+		}
+		
+		catch() {
+			
+		}
+	}
+}
+ 
+public class ExceptH_06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
