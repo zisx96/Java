@@ -35,7 +35,7 @@ build/
 *.war
 *.ear
 
-# IntelliJ IDEA specific files (in case someone opens the project there)
+# IntelliJ IDEA specific files (if someone opens the project there)
 .idea/
 *.iml
 *.iws
@@ -50,6 +50,6 @@ jre/
 # Ignore node_modules if using Node.js with Spring Boot
 node_modules/
 
-# Ignore application-specific properties
+# Ignore application-specific properties (optional)
 application.properties
 application.yml
